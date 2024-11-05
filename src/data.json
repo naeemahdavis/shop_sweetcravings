@@ -1,0 +1,56 @@
+[
+    {
+        "name": "6 Cupcakes",
+        "price": "R80",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "12 Cupcakes",
+        "price": "R120",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "24 Cupcakes",
+        "price": "R220",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "Bento Cake",
+        "price": "R140",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "Bento and 5 Cupcakes",
+        "price": "R220",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "5 Layer 15cm Cake (round)",
+        "price": "R350+",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "5 Layer 20cm Cake (round)",
+        "price": "R450+",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "9 Brownies",
+        "price": "R120",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    },
+    {
+        "name": "Chocolate sheet cake (rectangular)",
+        "price": "R300+",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "https://www.allrecipes.com/thmb/i9KCEbxUGQ1Sa4F7Gts7SGBOpoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg"
+    }
+]
