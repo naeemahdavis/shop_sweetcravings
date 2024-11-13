@@ -2,7 +2,6 @@ import data from "./data.json";
 import Navigation from "./components/navbar";
 
 export default function App() {
-  console.log(data);
   return (
     <div className="bg-white">
       <Navigation />
