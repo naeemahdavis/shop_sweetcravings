@@ -23,12 +23,12 @@ const Heading = ({ title }) => {
   );
 };
 
-export default function Example() {
+export default function Example({ cart }) {
   const [open, setOpen] = useState(true);
 
   return (
     <>
-      <ShoppingCart open={open} setOpen={setOpen} />
+      <ShoppingCart cart={cart} open={open} setOpen={setOpen} />
       <Disclosure as="nav" className="bg-fuchsia-300 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">

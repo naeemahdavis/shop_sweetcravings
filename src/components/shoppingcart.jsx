@@ -36,7 +36,7 @@ const products = [
   // More products...
 ];
 
-export default function ShoppingCartDialog({ open, setOpen }) {
+export default function ShoppingCartDialog({ cart, open, setOpen }) {
   return (
     <Dialog open={open} onClose={setOpen} className="relative z-10">
       <DialogBackdrop
@@ -76,7 +76,7 @@ export default function ShoppingCartDialog({ open, setOpen }) {
                         role="list"
                         className="-my-6 divide-y divide-gray-200"
                       >
-                        {data.map((product) => (
+                        {cart.map((product) => (
                           <li key={product.id} className="flex py-6">
                             <div className="h-24 w-24 shrink-0 overflow-hidden rounded-md border border-gray-200">
                               <img
