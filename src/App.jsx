@@ -2,6 +2,7 @@ import data from "./data.json";
 import Navigation from "./components/navbar";
 import { useState } from "react";
 import { Button } from "@headlessui/react";
+import { PlusCircleIcon } from "@heroicons/react/16/solid";
 
 export default function App() {
   const [cart, setCart] = useState([]);
@@ -42,18 +43,26 @@ const ProductCard = ({ product, setCart }) => {
           <div>
             <h3 className="text-sm font-medium text-gray-900">
               <a href={product.href}>
-                <span aria-hidden="true" className="absolute inset-0" />
+                {/* <span aria-hidden="true" className="absolute inset-0" /> */}
                 {product.name}
               </a>
             </h3>
             <p className="mt-1 text-sm text-gray-500">{product.description}</p>
           </div>
+        </div>
+        <div className="flex flex-col">
           <p className="text-sm font-medium text-gray-900">{product.price}</p>
+          <button className="bg-gray-300 p-4 rounded-md text-sm hover:bg-gray-500">
+            <Button onClick={() => setCart((cart) => [...cart, product])}>
+              {/* <PlusCircleIcon
+                aria-hidden="true"
+                className="hidden sm:ml-6 sm:block h-6 w-6 group-data-[open]"
+              /> */}
+              Add to Cart
+            </Button>
+          </button>
         </div>
       </div>
-      <Button onClick={() => setCart((cart) => [...cart, product])}>
-        Add to Cart
-      </Button>
     </>
   );
 };

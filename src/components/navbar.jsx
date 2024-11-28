@@ -16,6 +16,7 @@ import {
 } from "@heroicons/react/24/outline";
 import ShoppingCart from "./shoppingcart";
 import { useState } from "react";
+import { ShoppingCartIcon } from "@heroicons/react/16/solid";
 
 const Heading = ({ title }) => {
   return (
@@ -69,7 +70,15 @@ export default function Example({ cart }) {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex items-center">
                 {/* Profile dropdown */}
-                <Button onClick={() => setOpen(true)}>cart</Button>
+                <Button onClick={() => setOpen(true)} className="relative">
+                  <ShoppingCartIcon
+                    aria-hidden="true"
+                    className="hidden sm:ml-6 sm:block h-6 w-6 group-data-[open]"
+                  />
+                  <span className="absolute top-[-10px] right-[0] border solid 10px white rounded-full">
+                    {cart.length}
+                  </span>
+                </Button>
                 <Menu as="div" className="relative ml-3">
                   <div>
                     <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
